@@ -19,11 +19,9 @@ export default function Home({productData}:Props) {
 }
 
 export const getServerSideProps = async () => {
-  const productData = await (
-    await fetch("api/productdata")
-    ).json();
+  const productData = await (await fetch("https://vcyber-shop.vercel.app/api/productdata")).json();
 
   return {
     props: { productData },
-  }
-}
+  };
+};
