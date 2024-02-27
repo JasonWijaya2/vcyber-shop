@@ -49,21 +49,36 @@ const Navbar = () => {
                     </button>
                     {isDropdownOpen && (
                     <div className='absolute w-32 bg-black bg-opacity-50 border-2 border-[#fcee0a] shadow-2xl'>
-                        <a className='block flex justify-center items-center hover:text-[#fcee0a] cursor-pointer my-2'>
+                        <Link 
+                          href='/category/headset'
+                          className='block flex justify-center items-center hover:text-[#fcee0a] cursor-pointer my-2'
+                        >
                         Headset
-                        </a>
-                        <a className='block flex justify-center items-center hover:text-[#fcee0a] cursor-pointer my-2'>
+                        </Link>
+                        <Link 
+                          href='/category/mouse'
+                          className='block flex justify-center items-center hover:text-[#fcee0a] cursor-pointer my-2'
+                        >
                         Mouse
-                        </a>
-                        <a className='block flex justify-center items-center hover:text-[#fcee0a] cursor-pointer my-2'>
+                        </Link>
+                        <Link 
+                          href='/category/keyboard'
+                          className='block flex justify-center items-center hover:text-[#fcee0a] cursor-pointer my-2'
+                        >
                         Keyboard
-                        </a>
-                        <a className='block flex justify-center items-center hover:text-[#fcee0a] cursor-pointer my-2'>
+                        </Link>
+                        <Link 
+                          href='/category/chair'
+                          className='block flex justify-center items-center hover:text-[#fcee0a] cursor-pointer my-2'
+                        >
                         Chair
-                        </a>
-                        <a className='block flex justify-center items-center hover:text-[#fcee0a] cursor-pointer my-2'>
-                        Other...
-                        </a>
+                        </Link>
+                        <Link 
+                          href='/category/other'
+                          className='block flex justify-center items-center hover:text-[#fcee0a] cursor-pointer my-2'
+                        >
+                        ...Other
+                        </Link>
                     </div>
                     )}
                 </div>

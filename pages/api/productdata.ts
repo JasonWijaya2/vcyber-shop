@@ -23,7 +23,7 @@ const productData = [
     brand: "Steelseries",
     image: "https://media.steelseriescdn.com/thumbs/catalog/items/62406/d447dc561ffd4b45a8162f663464f34b.png.500x400_q100_crop-fit_optimize.webp",
     isNew: true,
-    category: "Mouse",
+    category: "mouse",
   },
 
   {
@@ -36,7 +36,7 @@ const productData = [
     brand: "Steelseries",
     image: "https://media.steelseriescdn.com/thumbs/catalog/items/61597/6c6f80894adc420cad51fddbcc58ab01.png.500x400_q100_crop-fit_optimize.png",
     isNew: true,
-    category: "Microphone",
+    category: "microphone",
   },
   {
     _id: 103,
@@ -48,7 +48,7 @@ const productData = [
     brand: "Steelseries",
     image: "https://media.steelseriescdn.com/thumbs/catalog/items/61559/f36e99e6a723414f9a9c08d8d0d3d730.png.500x400_q100_crop-fit_optimize.webp",
     isNew: true,
-    category: "Headset",
+    category: "headset",
   },
   {
     _id: 104,
@@ -59,7 +59,7 @@ const productData = [
     brand: "Steelseries",
     image: "https://media.steelseriescdn.com/thumbs/catalogue/products/01101-apex-7-red-switch/2ff2d4b8587d4af3aeeae2e5fbb4a698.png.500x400_q100_crop-fit_optimize.webp",
     isNew: true,
-    category: "Keyboard",
+    category: "keyboard",
   },
   {
     _id: 105,
@@ -71,7 +71,7 @@ const productData = [
     brand: "Steelseries",
     image: "https://media.steelseriescdn.com/thumbs/catalog/items/61547/a99efcd10f1f4d27857cbbedab954261.png.500x400_q100_crop-fit_optimize.webp",
     isNew: true,
-    category: "Speaker",
+    category: "speaker",
   },
   {
     _id: 106,
@@ -83,7 +83,7 @@ const productData = [
     brand: "Razer",
     image: "https://assets3.razerzone.com/WH5OfIBkme3mAPhLOQHBmCCLj-8=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhb1%2Fh51%2F9654943088670%2Fblackshark-v2-hyperspeed-black-500x500.png",
     isNew: true,
-    category: "Headset",
+    category: "headset",
   },
   {
     _id: 107,
@@ -95,7 +95,7 @@ const productData = [
     brand: "Razer",
     image: "https://assets3.razerzone.com/WZ3oPLIR9PYJCeioFfK4orTsb80=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh0b%2Fh95%2F9657630523422%2Fviper-v3-hyperspeed-black-500x500.png",
     isNew: true,
-    category: "Mouse",
+    category: "mouse",
   },
   {
     _id: 108,
@@ -107,7 +107,7 @@ const productData = [
     brand: "Razer",
     image: "https://assets3.razerzone.com/HKi30AaLVS-eMsFc-T2GCjKVCn8=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh93%2Fhee%2F9719861248030%2Fiskur-v2-black-green-2-500x500.png",
     isNew: true,
-    category: "Chair",
+    category: "chair",
   },
   {
     _id: 109,
@@ -119,7 +119,7 @@ const productData = [
     brand: "Razer",
     image: "https://assets3.razerzone.com/YtWqr12prPepbUlakSh52LMFXmU=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh2a%2Fhd3%2F9538807103518%2Fblackwidow-v3-black-5-500x500.png",
     isNew: true,
-    category: "Keyboard",
+    category: "keyboard",
   },
   {
     _id: 110,
@@ -130,7 +130,7 @@ const productData = [
     brand: "Razer",
     image: "https://assets3.razerzone.com/9V-IMwk9fHvzlFw6ma4kOf1yIHA=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhb7%2Fh1b%2F9539342008350%2Fblade14-p9-black-500x500.png",
     isNew: true,
-    category: "Laptop",
+    category: "other",
   },
   {
     _id: 111,
@@ -142,7 +142,7 @@ const productData = [
     brand: "Logitech",
     image: "https://resource.logitech.com/content/dam/gaming/en/products/astro-a50-x/product-gallery/astro-a50-x-black-gallery-1.png",
     isNew: true,
-    category: "Headset",
+    category: "headset",
   },
   {
     _id: 112,
@@ -154,7 +154,7 @@ const productData = [
     brand: "Logitech",
     image: "https://resource.logitech.com/w_350,c_fit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-superlight/pro-x-superlight-gallery-2.png",
     isNew: true,
-    category: "Mouse",
+    category: "mouse",
   },
   {
     _id: 113,
@@ -166,7 +166,7 @@ const productData = [
     brand: "Logitech",
     image: "https://resource.logitechg.com/w_386,ar_1.0,c_limit,f_auto,q_auto,dpr_2.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-tkl/gallery-1-pro-x-tkl-black-lightspeed-gaming-keyboard.png.png?v=1",
     isNew: true,
-    category: "Keyboard",
+    category: "keyboard",
   },
   {
     _id: 114,
@@ -179,7 +179,7 @@ const productData = [
     brand: "Logitech",
     image: "https://hkgaming.hermanmiller.com/cdn/shop/products/Embody_Cyan_02_8d515210-7f74-4f9b-917b-fdafe077a251_600x600_crop_center.png?v=1643901366",
     isNew: true,
-    category: "Chair",
+    category: "chair",
   },
   {
     _id: 115,
@@ -192,7 +192,7 @@ const productData = [
     brand: "Logitech",
     image: "https://resource.logitechg.com/w_386,ar_1.0,c_limit,f_auto,q_auto,dpr_2.0/d_transparent.gif/content/dam/gaming/en/products/pro-racing/pro-racing-wheel/gallery-xbox/gallery-1-pc-xbox.png?v=1",
     isNew: true,
-    category: "Driving Wheel",
+    category: "other",
   },
   {
     _id: 116,
@@ -205,7 +205,7 @@ const productData = [
     brand: "MSI",
     image: "https://asset-us-store.msi.com/image/cache/catalog/Pd_page/GGD/MOUSE/GM08/GM08-1-1024x1024.png",
     isNew: true,
-    category: "Mouse",
+    category: "mouse",
   },
   {
     _id: 117,
@@ -217,7 +217,7 @@ const productData = [
     brand: "MSI",
     image: "https://asset-us-store.msi.com/image/cache/catalog/Pd_page/GGD/HEADSET/DS502/DS502-1-1024x1024.png",
     isNew: true,
-    category: "Headset",
+    category: "headset",
   },
   {
     _id: 118,
@@ -230,7 +230,7 @@ const productData = [
     brand: "MSI",
     image: "https://asset-us-store.msi.com/image/cache/catalog/Pd_page/GGD/KEYBOARD/GK30COMBO/GK30COMBO-2-1024x1024.png",
     isNew: true,
-    category: "Keyboard",
+    category: "keyboard",
   },
   {
     _id: 119,
@@ -243,7 +243,7 @@ const productData = [
     brand: "MSI",
     image: "https://asset-us-store.msi.com/image/cache/catalog/Pd_page/Chairs/CH130/CH130-2-1024x1024.png",
     isNew: true,
-    category: "Chair",
+    category: "chair",
   },
   {
     _id: 120,
@@ -254,7 +254,7 @@ const productData = [
     brand: "MSI",
     image: "https://asset-us-store.msi.com/image/cache/catalog/Pd_page/GGD/AUDIO/GV60/GV60-1-1024x1024.png",
     isNew: true,
-    category: "Microphone",
+    category: "other",
   },
 ];
 
@@ -262,5 +262,12 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json(productData);
+  const { category } = req.query;
+
+  // If a category is provided in the query parameters, filter the products
+  const filteredProducts = category
+    ? productData.filter((product) => product.category === category)
+    : productData;
+
+  res.status(200).json(filteredProducts);
 }
