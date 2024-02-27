@@ -33,7 +33,9 @@ const Navbar = () => {
     <nav className='w-full bg-gradient-to-b from-black/50 text-white text-xl sticky top-0 z-50 mt-[-20px]'>
         <div className='flex flex-wrap mx-auto my-4 h-20 px-4 flex items-center justify-between relative'>
             <div className='px-5 bg-transparent flex items-center m-2 cursor-pointer'>
-                <Image src={logo} alt='logo' style={{maxWidth:'270px', maxHeight:'68px'}}/>
+                <div className='logo mx-4'>
+                    V-Cyber
+                </div>
             </div>
             <div className='flex justify-center items-center bg-black bg-opacity-50 border-2 border-[#fcee0a] rounded-tl-2xl rounded-br-2xl mr-8'>
                 <Link href='/' className='w-24 h-10 flex justify-center items-center hover:bg-[#fcee0a] hover:text-black rounded-tl-xl cursor-pointer'>

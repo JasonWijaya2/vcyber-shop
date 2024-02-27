@@ -1,17 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import {
-    emptyCart,
-    phoneImg,
-    ship1Img,
-    ship2Img,
-    ship3Img,
-    warningImg,
-} from "@/public/assets/images"
+import { CiWarning } from "react-icons/ci"
 import { TbReload } from 'react-icons/tb'
 import { HiMinusSmall } from 'react-icons/hi2'
-import { MdOutlineAdd } from 'react-icons/md'
-import { IoMdClose } from 'react-icons/io'
+import { MdOutlineAdd, MdLocalShipping } from 'react-icons/md'
+import { IoMdClose, IoIosPhonePortrait } from 'react-icons/io'
+import { GiCardPickup, GiShoppingBag } from "react-icons/gi"
 import Image from 'next/image'
 import { StoreProduct } from '@/type'
 import FormatPrice from './FormatPrice'
@@ -74,22 +68,22 @@ const CartPage = () => {
                 </h1>
                 <div>
                     <div className='text-xl font-bold flex items-center gap-2 mb-2'>
-                        <Image className='w-10' src={phoneImg} alt='phoneImg' />
+                        <IoIosPhonePortrait className='w-8 h-8' />
                         <p>Pickup and delivery options</p>
                     </div>
-                    <div className='w-full grid grid-cols-3 gap-4 text-xs'>
-                        <div className='w-full border border-black rounded-md flex-flex-col items-center justify-center gap-1 p-2'>
-                            <Image className='w-10' src={ship1Img} alt='shippingImg' />
+                    <div className='w-full grid grid-cols-3 gap-4 text-xs my-4'>
+                        <div className='w-full border border-black rounded-md flex-flex-col items-center justify-center gap-1 p-2 hover:bg-black hover:text-[#00f0ff] cursor-pointer'>
+                            <GiShoppingBag className='w-5 h-5' />
                             <p className='font-bold'>Shipping</p>
                             <p>All items available</p>
                         </div>
-                        <div className='w-full border border-black rounded-md flex-flex-col items-center justify-center gap-1 p-2'>
-                            <Image className='w-10' src={ship2Img} alt='shippingImg' />
+                        <div className='w-full border border-black rounded-md flex-flex-col items-center justify-center gap-1 p-2 hover:bg-black hover:text-[#00f0ff] cursor-pointer'>
+                            <GiCardPickup className='w-5 h-5' />
                             <p className='font-bold'>Pickup</p>
                             <p>All items available</p>
                         </div>
-                        <div className='w-full border border-black rounded-md flex-flex-col items-center justify-center gap-1 p-2'>
-                            <Image className='w-10' src={ship3Img} alt='shippingImg' />
+                        <div className='w-full border border-black rounded-md flex-flex-col items-center justify-center gap-1 p-2 hover:bg-black hover:text-[#00f0ff] cursor-pointer'>
+                            <MdLocalShipping className='w-5 h-5' />
                             <p className='font-bold'>Delivery</p>
                             <p>All items available</p>
                         </div>
@@ -222,7 +216,7 @@ const CartPage = () => {
                     {
                         warning && (
                         <div className='bg-black text-[#00f0ff] p-2 rounded-lg flex items-center justify-between gap-4'>
-                            <Image className='w-8' src={warningImg} alt='warningImg' />
+                            <CiWarning className='w-10 h-10' />
                             <p className='text-sm'>
                                 Items in your cart have reduced prices. Check out now for extra savings!
                             </p>

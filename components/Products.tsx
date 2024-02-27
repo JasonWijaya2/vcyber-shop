@@ -11,7 +11,7 @@ const Products = ({productData}:any) => {
   const dispatch = useDispatch()
 
   return (
-    <div className='bg-[#fcee0a] w-full py-6 px-4 flex flex-wrap justify-center items-center gap-2'> 
+    <div className='bg-[#fcee0a] w-full py-6 px-4 flex flex-wrap justify-center items-center gap-2 my-8'> 
       {productData.map((item: Item) => (
         <div key={item._id} className='bg-gray-700 border-8 border-black mb-6 group relative'>
           <Link href={{
